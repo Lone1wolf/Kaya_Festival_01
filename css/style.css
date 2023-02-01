@@ -94,6 +94,22 @@ nav ul li a:hover::after {
  font-size: 40px;
 }
 
+/* mudar cor de teclas (Festival, Dançar, Musica, Dj´s) */
+.header-texto p span span {
+ font-size: 40px;
+ color: #71c9ce;
+ transition-delay: 0.3s;
+}
+
+.header-texto p span span:hover {
+ color: #eeeeee;
+}
+
+
+
+/* End of lines */
+
+
 .header-texto h3 {
  font-size: 15px;
  margin-top: -10px;
@@ -123,4 +139,23 @@ nav ul li a:hover::after {
 
 .header-texto a:hover::after {
  width: 20%;
+}
+
+
+/* Eventos actuais */
+
+#Eventos-corente {
+ padding: 80px o;
+ color: #eeeeee;
+}
+
+.row {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+
+.Eventos-col-1 {
+ flex-basis: 10%;
+ size: ;
 }
